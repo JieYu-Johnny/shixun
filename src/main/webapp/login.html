@@ -12,7 +12,7 @@
 
 
 
-<link rel="stylesheet" type="text/css" href="static/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="static/css/dripicon.css">
 <link rel="stylesheet" type="text/css" href="static/css/css.css">
 <link href="static/css/login.css" rel="stylesheet" type="text/css" />
@@ -38,14 +38,14 @@ document.onkeyup = function(event){
 	}
 }
 function onChkLogin(){
-    if ($("#usercode").val() == "" ){
+    if ($("#userId").val() == "" ){
         alert ("请输入用户名!");
-        $("#usercode").focus();
+        $("#userId").focus();
         return false;
     }
-    if ($("#password").val() == "" ){
+    if ($("#pwdId").val() == "" ){
         alert ("请输入密码!");
-        $("#password").focus();
+        $("#pwdId").focus();
         return false;
     }
 	/*
